@@ -18,11 +18,11 @@ Use the following line of code to assign a variable name to your data. Use a nam
 ### Start with the basic code for a bar chart 
 The code below will make you a basic bar chart, no colors and no legend. 
   
-`ggplot(data = variable) +  
+ggplot(data = variable) +  
 geom_bar(stat = "identity", aes(x = column name1, y= column name2, fill=TRUE, show.legend=FALSE)) +  
 ggtitle("Chart Title") + 
 xlab("Label for Horizontal Axis") +  
-ylab("Label for Vertical Axis")`    
+ylab("Label for Vertical Axis")    
 
 ### Make changes to your bar chart to make it more visually appealing 
 The code below will make a bar chart with teal bars and remove the gray background. This may be more visually appealing for printing.  
